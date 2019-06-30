@@ -1,0 +1,28 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "music website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch ./src/scss/main.scss ./src/css/style.css --source-map ./src/css/style.css.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quixlab/music.git"
+  },
+  "author": "quixlab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quixlab/music/issues"
+  },
+  "homepage": "https://github.com/quixlab/music#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0",
+    "node-sass": "^4.11.0"
+  }
+  
+}

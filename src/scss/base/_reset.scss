@@ -1,0 +1,51 @@
+@import "../vendor/bootstrap/css/bootstrap.min.css";
+
+
+* {
+    outline: none;
+    padding: 0;
+
+    &::after {
+        margin: 0;
+        padding: 0;
+    }
+    
+    &::before {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+body{
+    font-family: $pp;
+    font-size: 16px;
+    color: $tl;
+    line-height: 1.6;
+    font-weight: 300;
+    padding: .5in;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    // color: $td;
+    text-decoration: none;
+    outline: none;
+    &:hover,&:focus,&.active{
+        text-decoration: none;
+        outline: none;
+        color: $primary;
+    }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+   color: $td;
+}
+

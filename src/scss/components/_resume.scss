@@ -1,0 +1,126 @@
+
+.personal-info{
+    padding-bottom: 15px;
+    .media{
+        img{
+            margin-right: 30px;
+        }
+        h4{
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+    }
+    .info-list{
+        ul{
+            li{
+                margin-bottom: 7px;
+                a{
+                    color: $tl;
+                    &:hover,&:focus{
+                        color: $primary;
+                    }
+                }
+                i{
+                    margin-right: 10px;
+                    color: $primary;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.timeline-heading{
+    h5{
+        margin-top: 30px;
+        width: 200px;
+        text-align: right;
+        padding-right: 30px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    hr {
+        margin-left: 235px;
+        position: relative;
+        top: -28px;
+    }
+}
+
+.timeline {
+    list-style: none;
+    padding: 8px 0 8px;
+    position: relative;
+    &:before {
+      top: 20px;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 2px;
+      left: 200px;
+      margin-right: -1.5px;
+      background: $primary;
+    }
+    > li {
+      margin-bottom: 3px;
+      position: relative;
+      &:before {
+        content: " ";
+        display: table;
+      }
+      &:after {
+        content: " ";
+        display: table;
+        clear: both;
+      }
+      > {
+        .timeline-title{
+            width: 200px;
+            float: left;
+            text-align: right;
+            margin-top: 6px;
+            padding-right: 30px;
+        }
+
+        .timeline-panel {
+          width: calc(100% - 235px);
+          float: right;
+          border-radius: 2px;
+          padding: 5px 20px 30px 0;
+          position: relative;
+        //   border-top: 2px solid #ddd;
+        //   top: 15px;
+        p{
+            margin-bottom: 0;
+        }
+        }
+
+        .timeline-badge {
+            border-radius: 50%;
+            height: 15px;
+            left: 194px;
+            position: absolute;
+            top: 10px;
+            width: 15px;
+            background-color: $primary !important;
+            border: 2px solid #fff;
+        }
+      }
+    }
+  }
+  
+
+  

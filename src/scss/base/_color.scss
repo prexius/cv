@@ -1,0 +1,300 @@
+/*    Color Mixins
+-------------------*/
+.color-primary,
+.text-primary {
+    color: $primary!important;
+}
+
+.color-secondary,
+.text-secondary {
+    color: $secondary!important;
+}
+
+.color-success,
+.text-success {
+    color: $success!important;
+}
+
+.color-info,
+.text-info {
+    color: $info!important;
+}
+
+.color-danger,
+.text-danger {
+    color: $danger!important;
+}
+
+.color-warning,
+.text-warning {
+    color: $warning!important;
+}
+
+.color-dark,
+.text-dark {
+    color: $dark!important;
+}
+
+.color-muted,
+.text-muted {
+    color: $muted!important;
+}
+/*    Background Mixins
+--------------------------*/
+.bg-primary {
+    background-color: $primary!important;
+    color           : $white;
+    fill            : $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary!important;
+    color           : $white;
+    fill            : $secondary;
+}
+
+.bg-success {
+    background-color: $success!important;
+    color           : $white;
+    fill            : $success;
+}
+
+.bg-info {
+    background-color: $info!important;
+    color           : $white;
+    fill            : $info;
+}
+
+.bg-danger {
+    background-color: $danger!important;
+    color           : $white;
+    fill            : $danger;
+}
+
+.bg-warning {
+    background-color: $warning!important;
+    color           : $white;
+    fill            : $warning;
+}
+
+.bg-dark {
+    background-color: $dark!important;
+    color           : $white;
+    fill            : $dark;
+}
+.bg-light {
+    background-color: $light!important;
+    color           : $dark;
+    fill            : $light;
+}
+
+.bg-white {
+    background-color: $white!important;
+}
+
+.bg-transparent {
+    background-color: transparent!important;
+    color           : $black;
+}
+
+
+////////////////////////////
+// General Button Color
+//////////////////////////
+
+.btn-primary {
+    background  : $primary;
+    border-color: $primary!important;
+    color       : $white!important;
+    &:hover,&:focus,&.active{
+        background-color: darken($primary,10%);
+        outline:none;
+        box-shadow: none;
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled) {
+    &.active:focus, &:active:focus {
+      box-shadow: none;
+      background-color: darken($primary,10%);
+    }
+  }
+
+
+.btn-secondary {
+    background  : $secondary;
+    border-color: $secondary!important;
+    color       : $white;
+    &:hover,&:focus,&.active{
+        background: darken($secondary,10%)
+    }
+}
+
+.btn-success {
+    background  : $success;
+    border-color: $success!important;
+    color       : $white;
+    &:hover,&:focus,&.active{
+        background: darken($success,10%)
+    }
+}
+
+.btn-warning {
+    background  : $warning;
+    border-color: $warning!important;
+    color       : $white;
+    &:hover,&:focus,&.active{
+        background: darken($warning,10%)
+    }
+}
+
+.btn-danger {
+    background  : $danger;
+    border-color: $danger!important;
+    color       : $white;
+    &:hover,&:focus,&.active{
+        background: darken($danger,10%)
+    }
+}
+
+.btn-info {
+    background  : $info;
+    border-color: $info!important;
+    color       : $white;
+    &:hover,&:focus,&.active{
+        background: darken($info,10%)
+    }
+}
+
+.btn-light {
+    background  : darken($light, 30%);
+    border-color: darken($light, 30%)!important;
+    color       : $black;
+    &:hover,&:focus,&.active{
+        background: darken($primary,10%)
+    }
+}
+
+.btn-dark {
+    background  : $dark;
+    border-color: $dark!important;
+    color       : $white;
+    &:hover,&:focus,&.active{
+        background: darken($primary,10%)
+    }
+}
+////////////////////////////
+// Outline Button Color
+//////////////////////////
+
+.btn-outline-primary {
+    background  : transparent;
+    border-color: $primary!important;
+    color       : $primary;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($primary, 10%);
+        color       : $white;
+        border-color: darken($primary, 10%)!important;
+    }
+}
+
+.btn-outline-secondary {
+    background  : transparent;
+    border-color: $secondary!important;
+    color       : $secondary;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($secondary, 10%);
+        color       : $white;
+        border-color: darken($secondary, 10%)!important;
+    }
+}
+
+.btn-outline-success {
+    background  : transparent;
+    border-color: $success!important;
+    color       : $success;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($success, 10%);
+        color       : $white;
+        border-color: darken($success, 10%)!important;
+    }
+}
+
+.btn-outline-warning {
+    background  : transparent;
+    border-color: $warning!important;
+    color       : $warning;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($warning, 10%);
+        color       : $white;
+        border-color: darken($warning, 10%)!important;
+    }
+}
+
+.btn-outline-danger {
+    background  : transparent;
+    border-color: $danger!important;
+    color       : $danger;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($danger, 10%);
+        color       : $white;
+        border-color: darken($danger, 10%)!important;
+    }
+}
+
+.btn-outline-info {
+    background  : transparent;
+    border-color: $info!important;
+    color       : $info;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($info, 10%);
+        color       : $white;
+        border-color: darken($info, 10%)!important;
+    }
+}
+
+.btn-outline-light {
+    background  : transparent;
+    border-color: $light!important;
+    color       : $white;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($light, 10%);
+        color       : $white;
+        border-color: darken($light, 10%)!important;
+    }
+}
+
+.btn-outline-dark {
+    background  : transparent;
+    border-color: $dark!important;
+    color       : $dark;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background  : darken($dark, 10%);
+        color       : $white;
+        border-color: darken($dark, 10%)!important;
+    }
+}
