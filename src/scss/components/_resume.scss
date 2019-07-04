@@ -4,6 +4,7 @@
     .media{
         img{
             margin-right: 30px;
+            max-width: 200px;
         }
         h4{
             margin-bottom: 20px;
@@ -121,6 +122,9 @@
       }
     }
   }
-  
 
-  
+
+
+  .table{
+      color: $tl;
+  }

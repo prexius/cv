@@ -15,7 +15,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #869ab8;
+  color: #1b283a;
   line-height: 1.6;
   font-weight: 300;
   padding: .5in; }
@@ -269,14 +269,15 @@ a {
 .personal-info {
   padding-bottom: 15px; }
   .personal-info .media img {
-    margin-right: 30px; }
+    margin-right: 30px;
+    max-width: 200px; }
   .personal-info .media h4 {
     margin-bottom: 20px;
     font-weight: 600; }
   .personal-info .info-list ul li {
     margin-bottom: 7px; }
     .personal-info .info-list ul li a {
-      color: #869ab8; }
+      color: #1b283a; }
       .personal-info .info-list ul li a:hover, .personal-info .info-list ul li a:focus {
         color: #1393CB; }
     .personal-info .info-list ul li i {
@@ -343,5 +344,8 @@ a {
       width: 15px;
       background-color: #1393CB !important;
       border: 2px solid #fff; }
+
+.table {
+  color: #1b283a; }
 
 /*# sourceMappingURL=style.css.map */
