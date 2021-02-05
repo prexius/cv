@@ -1,21 +1,20 @@
 {
-  "name": "music",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "music website",
-  "main": "index.js",
+  "description": "resume website",
   "scripts": {
     "sass": "node-sass --watch ./src/scss/main.scss ./src/css/style.css --source-map ./src/css/style.css.map"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quixlab/music.git"
+    "url": "git+https://github.com/qkitinc/resume.git"
   },
-  "author": "quixlab",
+  "author": "qkitinc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/quixlab/music/issues"
+    "url": "https://github.com/qkitinc/resume/issues"
   },
-  "homepage": "https://github.com/quixlab/music#readme",
+  "homepage": "https://github.com/qkitinc/resume#readme",
   "devDependencies": {
     "gulp": "^4.0.0"
   },
