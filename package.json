@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "resume website",
   "scripts": {
-    "sass": "node-sass --watch ./src/scss/main.scss ./src/css/style.css --source-map ./src/css/style.css.map"
+    "sass": "sass --watch ./src/scss/main.scss:./src/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.0",
-    "node-sass": "^4.11.0"
+    "sass": "^1.54.4"
   }
-  
 }
